@@ -46,8 +46,6 @@ const Profile = () => {
           <li>Spring Boot</li>
           <li>JavaScript</li>
           <li>React.js</li>
-          <li>TypeScript</li>
-          <li>Angular</li>
           <li>HTML/CSS</li>
         </ul>
       </section>
