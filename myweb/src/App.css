@@ -1,0 +1,137 @@
+
+.name{
+  font-size: 50px;
+  color: rgb(220, 138, 16);
+  font-weight: bold;
+  font-family: 	Georgia, 'Times New Roman', Times, serif;
+}
+
+.work{
+  font-size: 20px;
+  color: rgb(192, 120, 206);
+  font-weight: bold;
+  font-family: 	Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+  display: flex;
+  height: 90px;
+  justify-content: space-between; /* Pushes name left and icons right */
+  align-items: center; /* Aligns items in the center vertically */
+  padding-left: 50px;
+  background-color:  white;
+}
+.header button{
+  font-size: 50px;
+  color: rgb(18, 164, 183);
+  font-weight: bold;
+}
+.header p{
+    margin: 0; 
+    padding: 0;
+}
+
+.social-links  {
+ justify-content: center;
+  display: flex;
+ 
+  gap: 10px; /* Space between icons */
+background-color: white;
+}
+
+.social-links img  {
+  height: 50px;
+  width: 50px;
+   }
+
+.links-nav{
+  display :flex;
+  gap:30px;
+  padding-right: 20px;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+ 
+  padding-bottom: 25px;
+ 
+}
+.content img{
+  height: 350px;
+  width: 300px;
+  border-radius: 50%;
+  padding-left: 100px;
+  padding-top: 10px;
+  padding-right: 100px;
+
+}
+
+.about-me{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  text-align: left;
+  padding-right: 150px;
+  text-align: justify;
+  display: inline-block;
+  margin: 0; 
+}
+
+.links-nav button{
+  padding:10px;
+  background: none;
+ border-right: black;
+  border-left: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
+}
+
+.exp{
+text-align: left;
+padding-left:50px;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-right: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: lighter;
+}
+
+.skills{
+  text-align: left;
+padding-left:50px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.projects{
+  text-align: left;
+padding-left:50px;
+padding-right: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.edu{
+  text-align: left;
+  padding-left:50px;
+  padding-right: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 768px) {
+  .links-nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .header {
+      flex-direction: column;
+      text-align: center;
+  }
+  .social-links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+}
